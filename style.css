@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto';
+}
+
+.header {
+    background-image: url('https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+}
+
+/* navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+.navbar-nav .btn {
+    border: 1px solid black;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    height: 600px;
+    padding-top: 10%;
+}
+
+.jumbotron .display-4 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.jumbotron .btn {
+    background-color: #1C1F21;
+    color: white;
+    border-radius: 0;
+}
+
+/* background */
+
+.back {
+    background-image: linear-gradient(90deg, white 60%, #F0F0F0 40%);
+    padding-bottom: 50px;
+}
+
+/* promo */
+.promo {
+    margin-top: -180px;
+}
+
+.promo img {
+    height: 280px;
+}
+
+.promo .card {
+    height: 280px;
+    box-shadow: 0, 5px, 10px rgba(0, 0, 0, 0.6) !important;
+}
+
+.promo .card-title {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.promo .card-img-overlay {
+    padding-top: 10%;
+}
+
+/* category */
+
+.category {
+    margin-top: 110px;
+}
+
+.category h2,
+.product h2,
+.article h2,
+.subcribe h2,
+footer h2,
+.navbar-brand {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: black;
+}
+
+.category hr {
+    width: 120px;
+    border: 5px solid lightblue;
+    float: left;
+    margin-top: -20px;
+}
+
+/* product */
+.product {
+    margin-top: 70px;
+}
+
+.product hr {
+    width: 110px;
+    border: 5px solid lightblue;
+    float: left;
+    margin-top: -20px;
+}
+
+.product a {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: lightgray;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+.product .active {
+    color: black;
+}
+
+.product .card-text {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+/* owl */
+
+.owl-nav span {
+    font-size: 40px;
+    padding: 25px;
+}
+
+/* acticle */
+
+.back2 {
+    background-image: linear-gradient(90deg, #F0F0F0 50%, white 50%);
+    margin-top: 90px;
+    padding-bottom: 30px;
+}
+
+.article hr {
+    width: 90px;
+    border: 5px solid lightblue;
+    float: left;
+    margin-top: -20px;
+}
+
+/* subcribe */
+.subcribe {
+    margin-top: 90px;
+}
+
+footer {
+    margin-top: 90px;
+    background-color: #F0F0F0;
+}
+
+footer a {
+    margin-right: 20px;
+}
